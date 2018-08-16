@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trivia Game</title>
+    <title>The Big Lebowski Trivia</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Pacifico|Shrikhand" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Damion|Faster+One|Frijole|Luckiest+Guy|Permanent+Marker|Rock+Salt" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
 </head>
 <body>
-    <header id="header"></header>
 
-    <div id="mainContent"></div>
+        <audio id="rug"><source src="assets/audio/rug.mp3" type="audio/mpeg"></audio>
+        <audio id="opinion"><source src="assets/audio/opinion.wav" type="audio/mpeg"></audio>
+        <audio id="jesus"><source src="assets/audio/jesus.wav" type="audio/mpeg"></audio>
+        <audio id="dudeness"><source src="assets/audio/dudeness.wav" type="audio/mpeg"></audio>
+        <audio id="beverage"><source src="assets/audio/beverage.wav" type="audio/mpeg"></audio>
+        <audio id="rules"><source src="assets/audio/rules.wav" type="audio/mpeg"></audio>
+    
+    <h1>Movie Trivia</h1>
+
+    <div id="timer"></div>
+
+
+    <div id="mainContent">
+        <button class="startButton">Start</button>
+    </div>
 
     <div id="bodyContent"></div>
 
-
-
-
-
-
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
     
+    <script type="text/javascript" src="assets/app.js"></script>
 </body>
 </html>

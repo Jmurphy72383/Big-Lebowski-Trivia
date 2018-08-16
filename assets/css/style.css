@@ -1,18 +1,43 @@
 body {
-    background-color: black;
-    background-image: url("../images/main_img.jpeg");
-    background-repeat: no-repeat;
-    background-position: center 0;
-    min-height: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: black url("../images/TBL3.jpg") top center no-repeat;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
+    font-size: 145px;
+    font-family: 'Faster One', cursive;
     text-align: center;
-    font-size: 90px;
-    font-weight: bold;
-    margin-top: 30px;
-    padding-bottom: 20px;
-    font-family: 'Monoton', cursive;
+    margin-top: 215px;
+   color: rgba(191, 99, 6);
+}
+
+.startButton {
+    margin-left: auto;
+    color: white;
+    margin-right: auto;
+    display: block;
+    height: 150px;
+    width: 325px;
+    font-size: 75px;
+    font-family: 'Rock Salt', cursive;
+    background: rgba(247, 247, 247, 0.01);
+    border: none;
+}
+
+.startButton:hover {
+    color: rgba(191, 99, 6);
+}
+
+.startButton:focus {
+    outline: 0;
 }
 
 .buttonsClass button {
@@ -23,44 +48,9 @@ h1 {
     text-shadow: none;
 }
 
-button:hover {
-    color: forestgreen;
-}
-
-button {
-    
-    text-align: center;
-    font-size: 30px;
-    font-weight: bolder;
+img {
     display: block;
     margin: 0 auto;
-    background-color:rgba(252, 253, 253, 0.5);
-    height: 75px;
-    width: 220px;
-}
-
-#mainContent {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 45px;
-    color: white;
-    font-weight: bolder;
-    font-family: 'Shrikhand', cursive;
-    color: yellow;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 45px;
-    color: white;
-    font-weight: bolder;
-    font-family: 'Shrikhand', cursive;
-    color: yellow;
-}
-
-#bodyContent {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 40px;
+    width: 700px;
+    height: 378px;
 }
