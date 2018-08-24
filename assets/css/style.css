@@ -19,6 +19,11 @@ h1 {
    color: rgba(191, 99, 6);
 }
 
+h2 {
+    font-size: 60px;
+
+}
+
 .startButton {
     margin-left: auto;
     color: white;
@@ -41,8 +46,8 @@ h1 {
 }
 
 .buttonsClass button {
-    height: 60px;
-    width: 350px;
+    height: 70px;
+    width: 845px;
     margin-top: 20px;
     background-color: coral .5;
     text-shadow: none;
@@ -53,4 +58,84 @@ img {
     margin: 0 auto;
     width: 700px;
     height: 378px;
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: 'Rock Salt', cursive;
+    padding: 0;
+    background: rgba(247, 247, 247, 0.01);
+    border: none;
+}
+
+.btn1:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.btn2:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.btn3:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.btn4:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.btn1:focus {
+    outline: 0;
+}
+.btn2:focus {
+    outline: 0;
+}
+.btn3:focus {
+    outline: 0;
+}
+.btn4:focus {
+    outline: 0;
+}
+.nextBtn {
+    font-size: 25px;
+    font-family: 'Rock Salt', cursive;
+    padding: 0;
+    background: rgba(247, 247, 247, 0.01);
+    border: none;
+}
+.nextBtn:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.nextBtn:focus {
+    outline: 0;
+}
+
+.timer, .counter {
+    font-family: 'Rock Salt', cursive;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.ending {
+    font-family: 'Rock Salt', cursive;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.wooPee {
+    height: 450px;
+    width: 400px;
 }
