@@ -13,6 +13,7 @@ var question7 = "Who Does Nobody Fuck With?"
 $(".startButton").on("click", function() {
     $(".startButton").remove();
     $("h1").remove();
+    $("h3").remove();
     
     startGame();
     questionOne();
